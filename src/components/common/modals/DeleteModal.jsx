@@ -2,9 +2,11 @@ import { actions } from "../../../actions";
 import alertIcon from "../../../assets/icons/alert.svg";
 import { useAuthorizedApi } from "../../../hooks/api/useAuthorizedApi";
 import { useBlogs } from "../../../hooks/blogs/useBlogs";
+import { useProfile } from "../../../hooks/profile/useProfile";
 
 export default function DeleteModal({ setShowModal, blogId }) {
   const { dispatch } = useBlogs();
+  const { dispatch: profileDispatch } = useProfile();
   const { authorizedApi } = useAuthorizedApi();
 
   const handleClose = (e) => {
@@ -19,6 +21,10 @@ export default function DeleteModal({ setShowModal, blogId }) {
         dispatch({
           type: actions.blogs.DELETE_BLOG,
           id: blogId,
+        });
+        profileDispatch({
+          type: actions.profile.BLOG_DELETE,
+          data: blogId,
         });
         setShowModal(false);
       }

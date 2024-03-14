@@ -37,6 +37,15 @@ const profileReducer = (state, action) => {
         loading: false,
         profile: { ...state.profile, bio: action.data },
       };
+    case actions.profile.BLOG_DELETE:
+      return {
+        ...state,
+        loading: false,
+        profile: {
+          ...state.profile,
+          blogs: state.profile.blogs.filter((blog) => blog.id !== action.data),
+        },
+      };
     default:
       return state;
   }
