@@ -6,7 +6,7 @@
       "firstName": "Sumit",
       "lastName": "Saha",
       "avatar": "avatar-1708764729322-387087910.png",
-      "bio": "A Full Stack Web Application Developer from Bangladesh 🇧🇩 & a Programming Content Creator. Spend most of time coding outstanding projects or creating contents",
+      "bio": "A Full Stack Web Application Developer from Bangladesh 🇧🇩 & a Programming Content Creator. Spend most of time coding outstanding projects or creating contents for people.",
       "password": "$2b$08$l8LuMMePmC0u.SdhhsMfqeo34HAF/o70eagtLO8V4HiHUyphNgu3q",
       "favourites": []
     },
@@ -201,34 +201,7 @@
         }
       ],
       "createdAt": "2024-02-24T09:09:01.121Z",
-      "isFavourite": true
-    },
-    {
-      "id": "4321b782f360f58c8c87",
-      "title": "Create Custom Dialog with listview | Android | Java",
-      "content": "Often we might need to create a custom dialog with listview to choose different kinds of actions for a particular option. In certain cases, we use such type of menu items for menus. So, In this post, I will show you how you can create this Custom Dialog with Listview :",
-      "thumbnail": "thumbnail-1708765297564-606798153.png",
-      "author": {
-        "id": "3d2dde4b6548275fb066",
-        "firstName": "Saad",
-        "lastName": "Hasan",
-        "avatar": "avatar-1708764856675-623317122.jpg"
-      },
-      "tags": "android, java, kotlin, permission",
-      "likes": [
-        {
-          "id": "346d7a36b3c41f3fbfa2"
-        },
-        {
-          "id": "3d2dde4b6548275fb066"
-        },
-        {
-          "id": "335e852809b9dc71bcc6"
-        }
-      ],
-      "comments": [],
-      "createdAt": "2024-02-24T09:01:37.581Z",
-      "isFavourite": true
+      "isFavourite": false
     },
     {
       "id": "4321b782f360f58c8c86",
@@ -311,27 +284,6 @@
       "isFavourite": true
     },
     {
-      "id": "4321b782f360f58c8c89",
-      "title": "React useMemo Hook",
-      "content": "useMemo is used to memoize the result of a function, meaning it caches the result and returns it when the inputs to that function haven't changed since the last render. It takes two arguments: the function to memoize and an array of dependencies. If any of the dependencies change between renders, the memoized function is re-executed; otherwise, the cached result is returned.",
-      "thumbnail": "thumbnail-4321b782f360f58c8c89.avif",
-      "author": {
-        "id": "3d2dde4b6548275fb066",
-        "firstName": "Saad",
-        "lastName": "Hasan",
-        "avatar": "avatar-1708764856675-623317122.jpg"
-      },
-      "tags": "android, java, kotlin, permission",
-      "likes": [
-        {
-          "id": "346d7a36b3c41f3fbfa2"
-        }
-      ],
-      "comments": [],
-      "createdAt": "2024-02-24T09:01:37.581Z",
-      "isFavourite": false
-    },
-    {
       "id": "9d5598ab44600a379103",
       "title": "Dev Retro 2022: What made me a better developer this year?",
       "content": "Writing about the Dev Retro 2022 will be a bit off track if I do not discuss the journey briefly before it, which shaped my career as a blogger. The year 2021 was about writing. Writing here on my blog, freeCodeCamp, CSS-Tricks, Dev, and many other platforms.\n\nAt the end of 2021, I could establish myself as a technology blogger on the prominent platforms mentioned. The most exciting fact was that I was one of the top contributors/most-read authors on all these platforms.\n\nWhile these achievements were immense, I was still wondering about doing something else, trying something different in 2022. To be honest, I was trying to put myself out of my comfort zone, banking on all experiences I've gained over the years.\n\nThis article captures my journey of becoming a better developer this year. I hope it inspires you somehow, and if it does, I'll appreciate you leaving a comment. Also, for some of you who are part of this journey, I want to thank you from the bottom of my heart ❤️.",
@@ -393,23 +345,6 @@
       "isFavourite": false
     },
     {
-      "id": "b1a01eeea2dc063e7e6d",
-      "title": "lws 2 and yet working perfectly",
-      "content": "Hello I am stuck.",
-      "thumbnail": "thumbnail-1710256632404-126192073.JPG",
-      "author": {
-        "id": "7830e5903b889750f1e3",
-        "firstName": "Sumit",
-        "lastName": "Saha",
-        "avatar": "avatar-1708764729322-387087910.png"
-      },
-      "tags": "test, toast, fast",
-      "likes": [],
-      "comments": [],
-      "createdAt": "2024-03-12T15:17:12.432Z",
-      "isFavourite": false
-    },
-    {
       "id": "8ac473612766c94a17ac",
       "title": "This is Blog Title",
       "content": "teswt",
@@ -424,38 +359,6 @@
       "likes": [],
       "comments": [],
       "createdAt": "2024-03-12T15:19:52.139Z"
-    },
-    {
-      "id": "bf99aca73667838759ca",
-      "title": "This is Blog Title two",
-      "content": "hello hell!",
-      "thumbnail": "thumbnail-1710257082189-449269701.jpg",
-      "author": {
-        "id": "7830e5903b889750f1e3",
-        "firstName": "Sumit",
-        "lastName": "Saha",
-        "avatar": "avatar-1708764729322-387087910.png"
-      },
-      "tags": "test teste,tesat,teaett",
-      "likes": [],
-      "comments": [],
-      "createdAt": "2024-03-12T15:24:42.211Z"
-    },
-    {
-      "id": "1a5b9969f50e410ac7ea",
-      "title": "This is Blog Three",
-      "content": "Hello Everyone.",
-      "thumbnail": "thumbnail-1710257744710-490245263.JPG",
-      "author": {
-        "id": "7830e5903b889750f1e3",
-        "firstName": "Sumit",
-        "lastName": "Saha",
-        "avatar": "avatar-1708764729322-387087910.png"
-      },
-      "tags": "test teste,tesat,teaett",
-      "likes": [],
-      "comments": [],
-      "createdAt": "2024-03-12T15:35:44.725Z"
     },
     {
       "id": "fab115d7b663a2a3cb90",
